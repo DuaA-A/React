@@ -11,3 +11,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav {
+  display: flex;
+  justify-content:space-around;
+  padding: 0.1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 15px rgb(249, 148, 165);
+  width: 100%;
+  border-radius: 0% 0% 35% 30%;
+}
+nav ul {
+  color: rgb(238, 98, 121);
+  font-weight: 600;
+  display: inline-flex;
+  margin: 1rem;
+}
+nav ul li{
+  list-style: none;
+  margin: 0;
+  padding:0 1rem 0 1rem;
+  cursor: pointer;
+}
+.logo{
+  width: 50px;
+}
+.btn{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 22px;
+  color:red;
+}
+.btn:active{
+  color: rgb(238, 98, 121);
+}
+.student-card{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 15px rgb(249, 148, 165);
+  border-radius: 0% 10% 10% 10%;
+  padding: 2.5rem;
+  width: 240px;
+  height: 420px;
+  padding-left: 1.5rem;
+  
+}
+.student-card img {
+  width: 250px;
+  /* height: 100px; */
+  border-radius: 10%;
+}
+.student-card h2 {
+  color: rgb(238, 98, 121);
+  font-size: 1.5rem;
+  margin: 0.2rem  0rem;
+
+}
+.student-card p { 
+  color: rgb(100, 100, 100);
+  margin: 0.2rem 0;
+  margin-left: 0.2rem;
+
+}
+.student-card p span {
+  font-weight: bold;
+}
+.like-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  /* width: 20%; */
+}
+.like-icon{
+  font-size: 16px;
+  color: rgb(238, 98, 121);
+  cursor: pointer;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.student-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+
+  footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(249, 148, 165);
+    padding: 1rem;
+    text-align: center;
+    /* width: 100%; */
+    bottom: 0;
+    border-radius: 35% 30% 0% 0%;
+    margin-top: 3rem;
+
+  }
+  footer p {
+    color: rgb(238, 98, 121);
+    font-weight: 600;       
+  }
