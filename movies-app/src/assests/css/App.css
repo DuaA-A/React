@@ -7,7 +7,7 @@ body {
 }
 .nav-style {
   width: 1440px;
-  background-color: #001052;
+  background-color: #3b244e;
 }
 
 .logo {
@@ -30,11 +30,12 @@ body {
   text-indent: 25px;
   border-radius: 20px;
   padding-left: 0;
+  
 }
 
 .search input:focus {
   box-shadow: none;
-  border: 2px solid red;
+  border: 2px solid #d4bbe8;
 }
 .search .fa-search {
   position: absolute;

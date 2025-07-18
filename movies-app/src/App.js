@@ -4,14 +4,14 @@ import React from 'react';
 export default function App() {
   const [title, setTitle] = React.useState('Movies App');
   function toggle(){
-    setTitle((prev)=>(prev === "yes" ? "no" : "yes"));
+    setTitle((prev)=>(!prev));
   }
   return (
     <>
     <NavBar/>
-    <div onClick={toggle}>
-      {title}
-    </div>
+      <div onClick={toggle}>
+        <i className="fa-solid fa-star" style={{fontSize: "30px", color:title?"":"gold"}}></i>
+      </div>
     </>
   );
 }
